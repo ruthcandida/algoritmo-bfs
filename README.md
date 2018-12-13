@@ -2,7 +2,7 @@
 
 O algoritmo foi projetado para realizar uma busca em largura em um árvore qualquer. Este projeto foi construído em uma arquitetura de API e possui 3 funções: treeBfs, searchNode e deleteNode.
 
-* **treeBfs** - função que percorre um grafo (src/test/grafo.json) e retorna um array com a ordem de nós visitados 
+* **treeBfs** - função que percorre um grafo (src/test/grafo.json) e retorna um array com a ordem dos nós visitados 
 
 * **searchNode** - função que retorna um nó de acordo com o id passado no parâmetro da url como queryString
 
