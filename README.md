@@ -1,6 +1,6 @@
 # Algoritmo de busca em largura
 
-O algoritmo foi projetado para realizar uma busca em largura em um arvore qualquer. Este projeto foi contruído em uma arquitetura de API e possui 3 funções: treeBfs, searchNode e deleteNode.
+O algoritmo foi projetado para realizar uma busca em largura em um árvore qualquer. Este projeto foi construído em uma arquitetura de API e possui 3 funções: treeBfs, searchNode e deleteNode.
 
 * **treeBfs** - função que percorre um grafo (src/test/grafo.json) e retorna um array com a ordem de nós visitados 
 
