@@ -42,7 +42,6 @@ describe('Route /bfs', async () => {
 });
 
 describe('Route /search-node', async () => {
-  const url = 'idNode'
   it('it should respond with 200 and return an object', function (done) {
     request(urlBase)
       .post('/delete-node',{idNode})
@@ -59,7 +58,6 @@ describe('Route /search-node', async () => {
 });
 
 describe('Route /delete-node', async () => {
-  const url = 'idNode'
   it('it should respond with 200 and return true delete node', function (done) {
     request(urlBase)
       .post('/delete-node',{idNode})
